@@ -8,7 +8,6 @@ from email.mime.text import MIMEText
 from_email = 'your_email@your_domain.com' 
 password = 'your_password'
 
-
 def sendEmail (from_, to_, subject, body):
     msg = MIMEMultipart()
     msg['From'] = from_
